@@ -295,8 +295,13 @@ nav a {
 }
 
 @keyframes brand-auto {
-    from {transform: translateX(0);}
-    to {transform: translateX(-50%);}
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 .brand-auto {
@@ -795,7 +800,7 @@ footer {
 
 .footer-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 96px;
     align-items: start;
     padding-bottom: 64px;

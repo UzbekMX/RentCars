@@ -108,6 +108,7 @@
 
     .how-work-text h2 {
         font-size: var(--text-primary-mobile);
+        text-align: center;
     }
 
     .how-work-text p {
