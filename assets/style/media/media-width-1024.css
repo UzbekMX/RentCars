@@ -342,8 +342,9 @@
     }
 
     .reviews-text {
-        padding-left: 20px;
-        max-width: 260px;
+        display: flex;
+        max-width: 600px;
+        width: 100%;
     }
 
     .five-star {
